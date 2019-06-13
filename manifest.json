@@ -1,0 +1,12 @@
+{
+"manifest_version": 2,
+    "name": "[Terry Crews Extension]",
+    "description": "[Extensão que substitui imagens pela foto do Terry Crews.]",
+    "version": "0.0.3",
+    "content_scripts": [
+        {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
+}
